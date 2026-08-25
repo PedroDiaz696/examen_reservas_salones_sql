@@ -308,3 +308,16 @@ La estructura del repositorio se encuentra organizada de la siguiente manera:
 Diagrama_sql.png
 README.md
 ```
+
+
+# CAMBIOS IMPLEMENTADOS DEL EXAMEN
+
+## 1. verificar_disponibilidad: Función que devuelve 1 o 0 según la disponibilidad
+
+## 2. Consulta de pagos por transferencia: Utiliza JOIN, SUM, GROUP BY y ORDER BY y muestra el nombre del cliente, nombre del salon, metodo de pago, fecha de pago y monto pagado correctamente
+
+## 3. vista_resumen_pagos: Vista construida mediante JOIN entre: pagos, reservas, clientes y salones.
+
+## 4. auditoria_pagos: Tabla necesaria para almacenar el historial de nuevos pagos.
+
+## 5. auditoria_pagos_trigger: Trigger AFTER INSERT que registra automáticamente: ID del pago, fecha, usuario y valor pagado.
